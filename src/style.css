@@ -1,14 +1,508 @@
 
+/* base styles(extra small-mobile)*/
+html{
+  font-size: 14px;
+  
+}
+body{
+  padding: 0 ;
+  margin: 0;
+  font-family:'Roboto' sans-serif;
+  color: #444444;
+  font-size: 1rem;
+  
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: black;
+}
+h1{ font-size: 2.5rem;}
+h2{ font-size: 2rem;}
+h3{ font-size: 1.75rem;}
+h4{ font-size: 1.5rem;}
+h5{ font-size: 1.25rem;}
+h6{ font-size: 1rem;}
+
+a{
+  text-decoration: none;
+  color: #1D4ED8;
+}
+a:hover, a:focus{
+  color: #1D4ED8;
+}
+#navbar{
+  padding:8px;
+  margin: 0;
+  
+}
+
+
+#logo1text{
+  display: none;
+}
+#career-growth{
+  object-fit: cover;
+ 
+}
+#career-growth{
+  
+  width: 40%;
+  height: 40%; 
+    border-radius: 10%;
+   margin-left: 30%;
+    margin-right: 30%;
+  }
+  h1{
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    margin: 8px 0;
+  }
+  #about{
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto ;
+    padding: 8px;
+  }
+  #description{
+   
+    font-size: 1.25rem;
+  }
+  
+  #logo2{
+    width: 100%;
+    object-fit: cover;
+}
+#des{
+  text-align:center;
+}
+#jobs-table{
+  width:  350px;
+  height: 250px;
+  margin: 0 auto;
+  padding: 0 8px;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  text-align: center;
+}
+.header-row th{
+  border: 1px solid black;
+  padding: 8px;
+  background-color: aliceblue;
+  
+  
+}
+.data-row td{
+  border-right : 1px solid gray;
+  padding: 8px;
+  
+}
+#jobs-table tr:nth-child(even){
+  background-color: azure;
+
+}
+h2{
+  text-align: center;
+}
+#application{
+  max-width: 800px;
+   margin: 0 auto;
+   padding: 0 8px; 
+ }
+ 
+ h2{
+  text-align: center;
+}
+.form-group {
+  margin:  16px 0;
+  
+
+}
+
+#application{
+ max-width: 800px;
+  margin: 0 auto;
+  padding: 0 8px; 
+}
+#submit{
+  width: 40%;
+  
+  height: 500px;
+  padding-right: 80px;
+}
+
+.form-group{
+font-weight: 500;
+}
+.form-group input, select, textarea{
+  width: 80%;
+  font-size: 1.25rem;
+ 
+  border-radius: 5px;
+  border:1px solid gray;
+}
+.form-group textarea{
+  width: 80%;
+  font-family: 'Roboto' sans-serif;
+}
+.form-group input[type="checkbox"]{
+  width: 16px;
+  height: 16px;
+}
+.form-group input[type="submit"]{
+  background-color: #3B82F6;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+#link{
+ margin-left: 0%;
+ padding-left: 10%;
+ text-align: center;
+}
+h3{
+ margin-bottom: 0%;
+ margin-top: 0%;
+}
+.Apply{
+ float: right;
+}
+a{
+ text-decoration: none;
+}
+ #footer{
+
+  background-color: ghostwhite;
+  padding-top:3px;
+  margin-top: 11px;
+  text-align: center;
+}
+#footer-links{
+   list-style-type: none;
+   padding-left: 0;
+   
+}
+#footer-links li{
+ 
+  margin: 0 8px;
+  
+}
+#copyright{
+  color: grey;
+  font-size: 0.870rem;
+
+}
+/*small devices(tablets)*/
+@media screen and (min-width: 597px ) {
+  html{
+    font-size: 16px;
+    
+  }
+  
+  #logo1text{
+    display: block;
+  }
+ 
+h1{
+  
+  margin: 16px 0;
+}
+#logo2{
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+
+
+}
+#jobs-table{
+  width:  570px;
+  margin: 0 auto;
+  padding: 0 7px;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  text-align: center;
+}
+.header-row th{
+  border: 1px solid black;
+  padding: 8px;
+  background-color: aliceblue;
+  
+  
+}
+.data-row td{
+  border-right : 1px solid gray;
+  padding: 8px;
+  
+}
+#jobs-table tr:nth-child(even){
+  background-color: azure;
+
+}
+h2{
+  text-align: center;
+}
+.form-group {
+  margin:  16px 0;
+  
+
+}
+
+#application{
+ max-width: 800px;
+  margin: 0 auto;
+  padding: 0 8px; 
+}
+#submit{
+  width: 40%;
+  
+  height: 500px;
+  padding-right: 80px;
+}
+
+#application-form label{
+font-weight: 500;
+}
+.form-group input, select{
+  
+  width: auto;
+ 
+  border-radius: 5px;
+  border:1px solid gray;
+}
+.form-group textarea{
+  width: 80%;
+  font-family: 'Roboto' sans-serif;
+}
+.form-group input[type="checkbox"]{
+  width: 16px;
+  height: 16px;
+}
+.form-group input[type="submit"]{
+  background-color: #3B82F6;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  
+  
+}
+
+
+#link{
+ margin-left: 0%;
+ padding-left: 10%;
+ text-align: center;
+}
+h3{
+ margin-bottom: 0%;
+ margin-top: 0%;
+}
+.Apply{
+ float: right;
+}
+a{
+ text-decoration: none;
+}
+ #footer{
+
+  background-color: ghostwhite;
+  padding-top:3px;
+  margin-top: 11px;
+  text-align: center;
+}
+#footer-links{
+   list-style-type: none;
+   
+}
+#footer-links li{
+  display: inline;
+  margin: 0 8px;
+  
+}
+#copyright{
+  color: grey;
+  font-size: 0.870rem;
+
+}
+}
+
+/*medium devices(laptops) */
+@media screen and (min-width: 768px ) {
+  h1{
+  
+    margin: 20px 0;
+  }
+  #about{
+  flex-direction: row;
+   
+    max-width: 800px;
+    
+  }
+  #description{
+   width: 100%;
+   padding-right: 8px;
+    
+  }
+  #logo2{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+#jobs-table{
+  width:  700px;
+  margin: 0 auto;
+  padding: 0 8px;
+  border: 1px solid gray;
+  border-collapse: collapse;
+  text-align: center;
+}
+.header-row th{
+  border: 1px solid black;
+  padding: 8px;
+  background-color: aliceblue;
+  
+  
+}
+.data-row td{
+  border-right : 1px solid gray;
+  padding: 8px;
+  
+}
+#jobs-table tr:nth-child(even){
+  background-color: azure;
+
+}
+h2{
+  text-align: center;
+}
+.form-group {
+  margin:  16px 0;
+  
+
+}
+
+#application{
+ max-width: 800px;
+  margin: 0 auto;
+  padding: 0 8px; 
+}
+#submit{
+  width: 40%;
+  
+  height: 500px;
+  padding-right: 80px;
+}
+
+#application-form label{
+font-weight: 500;
+}
+#application-form input, select, textarea{
+  
+  font-size: 1.25rem;
+ 
+  border-radius: 5px;
+  border:1px solid gray;
+}
+.form-group textarea{
+  width: 80%;
+  font-family: 'Roboto' sans-serif;
+}
+.form-group input[type="checkbox"]{
+  width: 16px;
+  height: 16px;
+}
+.form-group input[type="submit"]{
+  background-color: #3B82F6;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  
+  
+}
+#link{
+margin-left: 0%;
+padding-left: 10%;
+text-align: center;
+}
+h3{
+margin-bottom: 0%;
+margin-top: 0%;
+}
+.Apply{
+float: right;
+}
+a{
+text-decoration: none;
+}
+#footer{
+
+background-color: ghostwhite;
+padding-top:8px;
+margin-top: 32px;
+text-align: center;
+}
+#footer-links{
+ list-style-type: none;
+ 
+}
+#footer-links li{
+display: inline;
+margin: 0 16px;
+
+}
+#copyright{
+color: grey;
+font-size: 0.875rem;
+
+}
+
+}
+
+
+/*large devices(desktops) */
+@media screen and (min-width: 992px ) {
+  html{
+    font-size: 20px;
+    
+  }
+}
+
+
+/*extra large devices( largedesktops) */
+@media screen and (min-width: 1200px ) {
+  /*css rule */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 html{
   font-size: 16px;
-  background-color:  #f9ecec;
+  background-color: rgb(217, 241, 250);
 }
   body{
-    padding: 10 px;
+    padding: 0 px;
     margin: 0;
     font-family:'Roboto' sans-serif;
-    text-align: justify;
+    color: #444444;
+    
 }
+
 h1,h2,h3,h4,h5,h6{
   font-family: 'Inter', sans-serif;
   font-weight: 600;
@@ -180,3 +674,4 @@ a{
   font-size: 0.875rem;
 
 }
+  */
